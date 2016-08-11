@@ -1,0 +1,6 @@
+input()
+l = list(map(int, input().split()))
+print(' '.join(map(str, list(filter(lambda x: x % 2 == 1, l)))))
+print(' '.join(map(str, list(filter(lambda x: x % 2 == 0, l)))))
+if len(list(filter(lambda x: x % 2 == 0, l))) >= len(list(filter(lambda x: x % 2 == 1, l))): print('YES')
+else: print('NO')
