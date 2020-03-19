@@ -1,1 +1,1 @@
-Some solutions os probles from https://acmu.ru/.
+Some solutions of problems from https://acmu.ru/.
